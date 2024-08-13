@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Formik, Form, ErrorMessage } from "formik";
 import { AuthFormWrap } from "./LoginForm";

@@ -1,4 +1,3 @@
-import React from "react";
 import AuthOuterLayout from "../../components/auth/AuthOuterLayout";
 import AuthInnerLayout from "../../components/auth/AuthInnerLayout";
 import AuthPageTitle from "../../components/auth/AuthPageTitle";
