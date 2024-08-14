@@ -1,3 +1,4 @@
+import React from "react";
 import ReactModal from "react-modal";
 import { X } from "lucide-react";
 import styled from "styled-components";
