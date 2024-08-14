@@ -19,6 +19,7 @@ export const CATEGORY_INFOS = [
       path: ROUTER_PATH.allMemberGroup
     },
     twoDepthRoute: [
+      { name: "단체관리", path: ROUTER_PATH.allMemberGroup },
       { name: "단체별 공제현황", path: ROUTER_PATH.deductionStatus },
       { name: "공제 집계 현황", path: ROUTER_PATH.deductionStatusTotal },
       { name: "단체회원관리", path: ROUTER_PATH.memberManagement },

@@ -162,7 +162,7 @@ const SubMenu = styled.ul`
   width: 100%;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  height: ${(props) => (props.$isOpen ? "240px" : "0")};
+  height: ${(props) => (props.$isOpen ? "300px" : "0")};
 `;
 
 export default Nav;
