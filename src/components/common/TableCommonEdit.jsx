@@ -142,7 +142,7 @@ const TableInput = styled.input`
   background: transparent;
   text-align: center;
   font-size: 1.4rem;
-  color: red;
+
   border: 1px solid #ddd;
   background: #fff;
   text-align: left;
@@ -161,6 +161,7 @@ const TableInput = styled.input`
   &:focus {
     outline: none;
     background: #fff;
+    color: red;
   }
   @media screen and (max-width: 1024px) {
     font-size: 1.2rem;
