@@ -90,3 +90,8 @@ button {
 .ReactModal__Overlay--after-open {
   z-index: 100;
 }
+
+.reset-font-size {
+  font-size: 16px; /* 절대 단위로 지정 */
+  font-size: 1rem; /* 상대 단위로 지정 (권장) */
+}
