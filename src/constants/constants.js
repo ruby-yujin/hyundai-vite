@@ -8,7 +8,8 @@ export const ROUTER_PATH = {
   deductionStatusTotal: "/deduction-status-total",
   memberManagement: "/member-management",
   memberRegister: "/member-register",
-  registerManagement: "/register-management"
+  registerManagement: "/register-management",
+  samplePage: "/sample-page"
 };
 
 export const CATEGORY_INFOS = [
@@ -36,6 +37,7 @@ export const CATEGORY_INFOS = [
 ];
 
 export const HEADER_TITLE = [
+  { title: "단체관리", path: ROUTER_PATH.samplePage },
   { title: "단체관리", path: ROUTER_PATH.allMemberGroup },
   { title: "단체별 공제현황", path: ROUTER_PATH.deductionStatus },
   { title: "공제 집계 현황", path: ROUTER_PATH.deductionStatusTotal },

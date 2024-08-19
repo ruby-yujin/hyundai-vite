@@ -11,6 +11,7 @@ import DeductionStatusTotal from "./pages/member/DeductionStatusTotal";
 import MemberManagement from "./pages/member/MemberManagement";
 import MemberRegister from "./pages/member/MemberRegister";
 import RegisterManagement from "./pages/register/RegisterManagement";
+import SamplePage from "./pages/member/SamplePage";
 
 function CustomRouter() {
   return (
@@ -25,6 +26,7 @@ function CustomRouter() {
       <Route path={ROUTER_PATH.changePhone} element={<ChangePhone />} />
 
       {/*  로그인후  */}
+      <Route path={ROUTER_PATH.samplePage} element={<SamplePage />} />
       {/* 단체관리 - 첫페이지 */}
       <Route path={ROUTER_PATH.allMemberGroup} element={<AllMemberGroup />} />
       {/* 단체관리 - 단체별 공제현황 */}

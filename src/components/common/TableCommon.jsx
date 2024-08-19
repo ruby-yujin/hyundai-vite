@@ -25,15 +25,6 @@ function TableCommon() {
   return (
     <TableCommonWrap>
       <Table>
-        <colgroup>
-          <col width="9%" />
-          <col width="14%" />
-          <col width="18%" />
-          <col width="15%" />
-          <col width="15%" />
-          <col width="14%" />
-          <col width="15%" />
-        </colgroup>
         <thead>
           <tr>
             <th>
@@ -79,6 +70,7 @@ const TableCommonWrap = styled.div`
       height: 28px;
       border-left: 1px solid #e2e2e2;
       border-bottom: 1px solid #e2e2e2;
+      padding: 5px;
       &:first-child {
         border-left: none;
       }
@@ -89,6 +81,7 @@ const TableCommonWrap = styled.div`
       font-size: 1.4rem;
       border-left: 1px solid #e2e2e2;
       border-bottom: 1px solid #e2e2e2;
+      padding: 5px;
       &.red {
         color: red;
       }
